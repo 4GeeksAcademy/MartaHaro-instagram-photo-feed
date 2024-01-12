@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(226, 225, 225);
+    margin:0%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.Post {
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px;  
+}
+
+div.Post .Photo-Header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+div.Post .Photo-Header div:last-child {
+    display: inline-block;
+    width: 19%;
+    text-align: right;
+    padding-right:15px;
+}
+
+div.Post h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin:0%;
+}
+
+div.Post span {
+    color: rgb(203, 197, 197);
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+div.Post img {
+    width: 100%;
+}
+
+div.Content {
+    width: 600px;
+    margin: auto;
+}
+
+div.Post p {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:0%;
+}
+
+
+
